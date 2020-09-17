@@ -1,0 +1,4 @@
+image: adoptopenjdk/openjdk8
+vscode:
+  extensions:
+    - linghui-luo.CogniCryptLSP@0.0.1:VutMiYGlwIvwJmv91brvag==
