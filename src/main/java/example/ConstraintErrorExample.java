@@ -24,5 +24,23 @@ public class ConstraintErrorExample {
            System.out.println(v);
         }
 
+        int weather = 2;
+      //passing variable to the switch
+      switch (weather) 
+      {
+          //comparing value of variable against each case
+        case 0:
+          System.out.println("It is Sunny today!");
+        case 1:
+          System.out.println("It is Raining today!");
+          break;
+        case 2:
+          System.out.println("It is Cloudy today!");
+          break;
+        //optional
+        default:
+          System.out.println("Invalid Input!");
+    }
+
 	}
 }
